@@ -1,5 +1,8 @@
 # CustomConfigHtmlEditor
 
+## Installation
+This module must be installed in a module folder called `htmleditor`
+
 ## Usage
 The following block adds a new editor configuration called `reduced` within `_config.php`
 ```
