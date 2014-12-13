@@ -2,14 +2,12 @@
 
 class CustomConfigHtmlEditorField extends HtmlEditorField {
 
-	public static function include_js() {
-            $configs = CustomHtmlEditorConfig::get();
-            if($configs) {
-                foreach($configs as $key => $value) {
-                    self::include_js_internal($key);
-                }
-            }            
-        }
+		public static function include_js() {
+			$availableConfigs = HtmlEditorConfig::get_available_configs_map();
+			foreach ($availableConfigs as $identifier => $friendlyName) {
+				self::include_js_internal($identifier);
+			}
+		}
         
         private static function include_js_internal($configName) {
 		require_once 'tinymce/tiny_mce_gzip.php';

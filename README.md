@@ -6,9 +6,6 @@ This module must be installed in a module folder called `htmleditor`
 ## Usage
 The following block adds a new editor configuration called `reduced` within `_config.php`
 ```
-//as HtmlEditorConfig does not have a method to return a list of all configs you do need to register the config name in this class
-CustomHtmlEditorConfig::addConfig('reduced');
-
 //config defintion
 $reduced = HtmlEditorConfig::get('reduced');
 $reduced->disablePlugins('table');
