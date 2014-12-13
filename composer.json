@@ -1,5 +1,5 @@
 {
-  "name": "htmleditor",
+  "name": "peda/htmleditor",
   "description": "Multiple HTMLEditor configurations (even on the same page)",
   "type": "silverstripe-module",
   "homepage": "https://github.com/peda/silverstripe-customconfightmleditor",
