@@ -1,0 +1,23 @@
+{
+  "name": "htmleditor",
+  "description": "Multiple HTMLEditor configurations (even on the same page)",
+  "type": "silverstripe-module",
+  "homepage": "http://github.com/your-vendor-name/module-name",
+  "keywords": ["silverstripe", "htmleditor", "config", "tinyMCE"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {"name": "Peter Rainer","email": "rainer.peter@gmail.com"}
+  ],
+  "support": {
+    "issues": "http://github.com/your-vendor-name/module-name/issues"
+  },
+  "require": {
+    "silverstripe/cms": ">3.2",
+    "silverstripe/framework": ">3.2"
+  },
+  "extra": {
+    "screenshots": [
+      "screenshots/screenshot.png"
+    ]
+  }
+}
